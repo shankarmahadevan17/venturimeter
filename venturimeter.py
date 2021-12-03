@@ -1,8 +1,7 @@
 from manimlib.imports import *
 class nice(Scene):
     def construct(self):
-        #np=NumberPlane()
-        #self.add(np)
+       
         l=Line([-5,2,0],[-2,2,0],color=YELLOW)
         self.add(l)
         l1=Line([-5,0,0],[-2,0,0],color=YELLOW)
